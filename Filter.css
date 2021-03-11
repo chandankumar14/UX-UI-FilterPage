@@ -1,0 +1,247 @@
+
+
+#heading{
+	text-align:center;
+	font-family: 'Josefin Slab', serif;
+	 background-color:black;
+	 color:wheat;
+	 top:0px;
+}
+
+
+.Filter{
+    margin-left: 35px;
+    font-size: 20px;
+     font-family: 'Times New Roman', Times, serif;
+     color: green;
+margin-top:20px;
+    }
+
+.filter-section{
+    width: 90%;
+    height: 100%;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: white;
+    margin-left: 13px;
+    margin-right: 7px;
+    padding-top: 5px;
+}
+
+.itemsection{
+    width: 80%;
+    height: 280px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: white;
+    margin-left: 13px;
+    margin-right: 7px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.side-upper,.side-lower{
+    width: 90%;
+    height: 350px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: white;
+    margin-left: 13px;
+    margin-right: 7px;
+    margin-top: 20px;
+   padding-bottom: 20px;
+}
+
+.side-upper-second{
+    margin: 16px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: 'Josefin Slab', serif;
+    color:darkred;
+
+}
+#select-location{
+    margin-left: 20px ;
+    width: 208px;
+    height: 35px;
+    border-radius: 3px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Cuisine {
+    width: 51px;
+    height: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 1.5;
+    text-align: left;
+    color: darkslateblue;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  #North-Indian,#Street-Food,#South-Indian,#Chinese,#Fast-Food{
+    margin-top: 6px;
+    margin-left: 10px;
+    color: gray;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+#checkbox1{
+    color: darkslateblue;
+    margin-left: 15px;
+}
+
+  .cost-for-two,.sort{
+    width: 100%;
+    font-family: Poppins;
+    font-size: 17px;
+    line-height: 1.5;
+    color: darkslateblue;
+    padding: 6px 25px;
+   
+  }
+.cost-two{
+   
+    color: gray;
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif ;
+}
+  
+ .radio , .sort1{
+    margin: 4px 15px;
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 1.5;
+    color: darkslateblue;
+    word-spacing: 3px;
+ }
+
+ .img{
+    width: 130px;
+    height: 120px;
+    border-radius: 25px;
+    margin-left: 25%;
+ }
+
+
+ 
+
+   .rest-name {
+    height: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 600;
+    text-align: left;
+    color: #192f60;
+}
+
+
+.rest-address {
+    height: 23px;
+    font-family: Poppins;
+    font-size: 18px;
+   padding-top: 15px;
+    margin-top: 3px;
+    text-align: justify;
+    color: #636f88;
+    margin-left: 20px;
+}
+
+
+
+#footer1{
+    margin-top: 15px;
+    background-color: green;
+}
+
+
+#design{
+    font-size: 25px;
+    color: wheat;
+    font-family: 'josefin slab',serif;
+}
+img{
+    width: 60%;
+    height: 80%;
+    border-radius: 10%;
+}
+
+p{
+    color: wheat;
+    font-size: 20px;
+    align-items: center;
+    padding-left: 20px;
+}
+ a{
+    display: block;
+    font-size: 20px;
+    font-family: 'Josefin Slab', serif;
+}
+#p{
+    color: wheat;
+}
+.company ,.contact{
+    color: wheat;
+    font-size: 25px;
+    font-family: 'josefin slab',serif;
+}
+.mob{
+    color: wheat;
+    font-size: 20px;
+}
+
+.copyright{
+    font-family: 'josefin slab',serif;
+    color: wheat;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+@media only screen and (max-device-width:480px ) and (orientation: portrait){
+
+
+    #heading{
+        text-align: center;
+        font-family: 'Josefin Slab', serif;
+        background-color: black;
+        color: wheat;
+        top: 0px;
+        font-size: 23px;
+    }
+
+    .rest-address {
+        height: 23px;
+        font-family: Poppins;
+        font-size: 15px;
+        text-align: justify;
+        color: #636f88;
+        margin-left: 20px;
+    }
+
+    .rest-name {
+        height: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        text-align: center;
+        color: #192f60;
+        align-items: center;
+        padding-bottom: 15px;
+    }
+
+
+    #footer1{
+        margin-top: 15px;
+        background-color: green;
+        height: 100vh;
+    }
+    
+
+}

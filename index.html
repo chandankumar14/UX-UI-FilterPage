@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+     crossorigin="anonymous" />
+     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300&display=swap" rel="stylesheet">
+    
+  <title>filter</title>
+  <link rel="stylesheet" href="Filter.css">
+</head>
+<body>
+
+    <div ><h1 id="heading"> FresherSolution && Support </h1></div>
+
+
+
+   <div class="container-fluid">
+       
+<div class="row">
+
+
+    <div class="col-sm-4 col-md-4 col-lg-4">
+
+        <div class="Filter" data-toggle="collapse" data-target="#demo" ><span class="glyphicon glyphicon-th"></span>Filter</div>
+
+        <div class="collapse show" id="demo">
+<div class="filter-section">
+
+<div class="side-upper">
+
+    <div class="side-upper-second"><p>Select Location</p></div>
+    <div>
+        <select name="location" id="select-location" >
+            <option value="Delhi">Delhi</option>
+            <option value="Dehradun">Dehradun</option>
+            <option value="Bihar">Bihar</option>
+            <option value="MP">MP</option>
+          </select>
+    </div>
+
+    <div class="Cuisine">Cuisine</div>
+    <div class="checkbox">
+
+        <div styl="display:block">
+            <input type="checkbox" id="checkbox1" />
+            <span  id="North-Indian">North Indian</span>
+        </div>
+
+        <div styl="display:block">
+            <input type="checkbox" id="checkbox1" />
+            <span   id="South-Indian">South Indian</span>
+        </div>
+        <div styl="display:block">
+            <input type="checkbox" id="checkbox1" />
+            <span id="Chinese">Chineese Indian</span>
+        </div>
+
+        <div styl="display:block">
+            <input type="checkbox"  id="checkbox1"/>
+            <span   id="Fast-Food">Fast Food</span>
+        </div>
+
+        <div styl="display:block">
+            <input type="checkbox"  id="checkbox1"/>
+            <span   id="Street-Food">Street Food</span>
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="side-lower">
+
+    <div class="cost-for-two">Cost For Two</div>
+
+    <div styl="display:block">
+        <input type="radio"  name="cost"  class="radio"/>
+        <span  class="cost-two">Less than &#8377; 500</span>
+    </div>
+
+    <div styl="display:block">
+        <input type="radio"  name="cost"  class="radio" />
+        <span  class="cost-two">&#8377; 500 to &#8377; 1000</span>
+    </div>
+
+    <div styl="display:block">
+        <input type="radio" name="cost"   class="radio"/>
+        <span  class="cost-two">&#8377; 1000 to &#8377; 1500</span>
+    </div>
+    
+    <div styl="display:block">
+        <input type="radio" name="cost"  class="radio" />
+        <span  class="cost-two">&#8377; 1500 to &#8377; 2000</span>
+    </div>
+
+    <div styl="display:block">
+        <input type="radio"  name="cost"  class="radio" />
+        <span class="cost-two">&#8377; 2000 +</span>
+    </div>
+
+
+    <div class="sort">Sort</div>
+
+<div styl="display:block">
+    <input type="radio" name="sort"  class="radio"   />
+    <span class="cost-two">Price low to high</span>
+</div>
+<div styl="display:block">
+    <input type="radio" name="sort"  class="radio"  />
+    <span class="cost-two">Price High to Low</span>
+</div>
+</div>
+
+
+
+
+
+</div>
+</div>
+
+</div>
+
+
+
+
+<!-- item section------->
+<div class="col-sm-8 col-md-8 col-lg-8">
+    <div class="itemsection">
+
+<div class="row">
+<div class="col-sm-4 col-md-4 col-lg-4">
+<img src="image/assignment1.png" class="img" alt="image" />
+</div>
+
+
+<div class="col-sm-8 col-md-8 col-lg-8">
+
+    <div class="rest-name">Heading of image</div>
+ <div class="rest-address">Lorem ipsum dolor sit amet consectetur
+     adipisicing elit. Dolorem, dolor!</div>
+</div>
+
+</div>
+<hr />
+<!--lower start------>
+<div class="row">
+    
+<div class="left-bottom"> 
+
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="rest-address">CUISINES :Cuisines name</div>
+        <div class="rest-address">COST FOR TWO : min-price:230 </div>
+
+
+      </div>
+   
+    </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+<!-- item section end here------>
+
+
+
+
+
+ </div>
+ 
+</div>
+
+
+
+
+
+
+
+<!-- footer section--------->
+<div class="container-fluid" id ="footer1">
+    <div class="row">
+    <div class="col-sm-4 col-md-4 col-lg-4">
+        
+        <p id="design">Design</p> 
+    <div class="img">
+        <img src="./image/logo.png" alt="image" />
+    </div>
+    </div>
+    
+    
+    <div class="col-sm-4 col-md-4 col-lg-4">
+        <div class="company">Company</div>
+        <hr />
+        <a href="#"><p id="p">Services</p></a>
+        <a href="#"><p id="p">Abouts-us</p></a>
+        <a href="#"><p id="p">Location</p></a>
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4">
+        <div class="contact">Company</div>
+        <hr />
+        <div class="mob">
+            <a href="#"><p id="p">Services</p></a>
+            <a href="#"><p id="p">Abouts-us</p></a>
+            <a href="#"><p id="p">Location</p></a>  
+        </div>
+      
+    </div>
+    
+    </div>
+    
+    
+    </div>
+    
+    
+    
+    <div class="copyright">copyright@Team FresherSolution && Support</div>
+    
+    
+
+
+</body>
+</html>

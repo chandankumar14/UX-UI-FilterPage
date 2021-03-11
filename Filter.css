@@ -244,4 +244,17 @@ p{
     }
     
 
+
+
+    .itemsection{
+        width: 80%;
+        height: 300px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: white;
+        margin-left: 13px;
+        margin-right: 7px;
+        margin-top: 40px;
+        border-radius: 20px;
+    }
+
 }
